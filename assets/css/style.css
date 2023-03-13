@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Redressed&display=swap');
+
+ .redressed
+ {
+    font-family: Redressed cursive;
+ }
+
+ .merriweather
+ {
+    font-family: Merriweather serif;
+ }
+ .jas-navbar
+ {
+     background-color:rgba(0, 0, 0, 0.5);
+    font-family: marriwhater  serif;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    z-index: 99;
+ }
+ /* Style de bordure au survol */
+ .jas-navbar .nav-link
+  {
+    transition:padding-bottom 0.4s ease-in-out, color 0.3s ease;
+  }
+  .jas-navbar .nav-link:hover {
+    padding-bottom:15px;
+    border-bottom: 2px solid green;
+    
+  }
+
+ .btn-commande
+{
+    color:seagreen ;
+    border-color: seagreen;
+    border: solid 1px;
+    
+}
+
+.btn-commande:hover,
+.btn-commande:active
+{
+    background-color: seagreen;
+    color: white;
+}
+/*=====================Banniere==================*/
+.banniere
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url('../img/banniere33.jpg') center center fixed no-repeat;
+    height: 800px;
+}
+
+.banniere .banniereh1
+{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*==================Section Repas=============*/
+.jas-menu
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url('../img/banniere7.jpg') center center fixed no-repeat;
+    height: 1200px;
+}
+
+.mycostm:hover {
+    transform: scale(1.07);
+    transition: transform 0.2s ease-in-out;
+  }
+.jscard
+{
+    color: black;
+}
+/*====================Section formulaire===================*/
+.order-form
+
+{background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+url('../img/banniere4.jpg') center center fixed no-repeat;
+height: 400px;
+}
+  
+
+/*=======Footer===========*/
+.jas-footer li a
+{
+    text-decoration: none;
+    color: darkslategrey;
+}
+  
+  
