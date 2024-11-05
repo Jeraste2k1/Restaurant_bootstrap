@@ -62,7 +62,7 @@
 {
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
     url('../img/banniere7.jpg') center center fixed no-repeat;
-    height: 1200px;
+    height: auto;
 }
 
 .mycostm:hover {
@@ -78,7 +78,7 @@
 
 {background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
 url('../img/banniere4.jpg') center center fixed no-repeat;
-height: 400px;
+height: auto;
 }
   
 
